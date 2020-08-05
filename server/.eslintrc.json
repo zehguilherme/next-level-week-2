@@ -12,7 +12,7 @@
   "plugins": ["@typescript-eslint"],
   "rules": {
     "linebreak-style": ["error", "windows"],
-    "quotes": ["error", "single"],
-    "object-curly-newline": ["error", { "multiline": true }]
+    "quotes": ["error", "double"],
+    "object-curly-newline": ["error", { "consistent": true }]
   }
 }
