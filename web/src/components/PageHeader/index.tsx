@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/destructuring-assignment */
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -8,6 +10,7 @@ import "./styles.css";
 
 interface PageHeaderProps {
   title: string;
+  description?: string; // ?: propriedade não obrigatória
 }
 
 const PageHeader: React.FC<PageHeaderProps> = (props) => (
@@ -22,6 +25,8 @@ const PageHeader: React.FC<PageHeaderProps> = (props) => (
 
     <div className="header-content">
       <strong>{props.title}</strong>
+
+      {props.description && <p>{props.description}</p>}
 
       {props.children}
     </div>
