@@ -36,6 +36,7 @@
 - [ReactJS](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React Router DOM](https://reactrouter.com/web/guides/quick-start) - Paginação
+- [Axios](https://github.com/axios/axios) - Facilita no consumo de APIs externas
 
 ### Back-end ( 🚧 Em construção )
 
@@ -50,7 +51,8 @@
 
 ### Mobile ( 🚧 Em construção )
 
-- Mobile First
+[React Native](https://reactnative.dev/)
+[Expo](https://expo.io/)
 
 ## ⌛ Começando
 
