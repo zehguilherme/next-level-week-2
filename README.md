@@ -2,6 +2,8 @@
   <img src="wallpapers/wallpaper-landing-page.PNG" alt="Proffy">
 </div>
 
+<br>
+
 <div align="center">
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ef1b7b4a1b1e46689dfcba30fcd7385d)](https://www.codacy.com/manual/zehguilherme/next-level-week-2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zehguilherme/next-level-week-2&amp;utm_campaign=Badge_Grade)
@@ -12,12 +14,19 @@
 
 </div>
 
+<div align="center">
+  <a href="README.md">Português</a>
+  ·
+  <a href="README-en.md">English</a>
+</div>
+
 <h4 align="center">
     Uma plataforma de estudos online que conecta alunos com professores!
 <h4>
 
 <p align="center">
     <a href="#-anotações">Anotações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-versão-2.0">Versão 2.0</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-começando">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -29,16 +38,20 @@
 - [Notion](https://www.notion.so/zehguilherme/Next-Level-Week-2-fe323580c8804c98a874114fb3f3eeaa)
 - [Whimsical](https://whimsical.com/G1Kf6yE5pWbPbxvdowmgZv@LUSUr8hW5owjZywGDt)
 
+## 🔜 Versão 2.0
+
+- [Notion](https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970)
+
 ## 🚀 Tecnologias
 
-### Web ( 🚧 Em construção )
+### Web
 
 - [ReactJS](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React Router DOM](https://reactrouter.com/web/guides/quick-start) - Paginação
 - [Axios](https://github.com/axios/axios) - Facilita no consumo de APIs externas
 
-### Back-end ( 🚧 Em construção )
+### Server
 
 - [NodeJS](https://nodejs.org/pt-br/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -49,12 +62,49 @@
 - [CORS](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS) - Permite que endereços diferentes acessem a API
   - **Padrão:** Somente aplicações do mesmo endereço podem acessá-la
 
-### Mobile ( 🚧 Em construção )
+### Mobile
 
-[React Native](https://reactnative.dev/)
-[Expo](https://expo.io/)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.io/)
+- [Expo Google Fonts](https://github.com/expo/google-fonts)
+- [Expo AsyncStorage](https://docs.expo.io/versions/latest/sdk/async-storage/) - API de armazenamento
+- [Feather Icons](https://feathericons.com/) - Pacote de ícones
+- [React Navigation](https://reactnavigation.org/) - Navegação / Criação e gerenciamento de rotas
+- [Axios](https://github.com/axios/axios) - Facilita no consumo de APIs externas
+  - Stack
+  - Bottom Tabs
 
 ## ⌛ Começando
+
+Em primeiro lugar, você precisa ter o *node* e *yarn* (ou *npm*) instalado em sua máquina.
+
+*If you decide to use npm don't forget to delete yarn.lock in folders*
+
+Então você pode clonar o repositório.
+
+`git clone https://github.com/zehguilherme/next-level-week-2`
+
+Primeiro, inicie o back-end.
+
+1. `cd backend`
+2. `yarn or npm install`
+3. `yarn dev or npm run dev`
+
+Agora iniciando a aplicação web.
+
+1. `cd frontend`
+2. `yarn or npm install`
+3. `yarn start or npm run start`
+
+Iniciando o aplicativo com Expo.
+
+1. `cd mobile`
+2. `yarn or npm install`
+3. `yarn start or npm run start`
+4. Press on `Run` on `Android device/emulator` or `Run` on `iOS simulator`
+5. Another option is to install Expo on your phone and scan the QRCode.
+
+*Para que a api funcione no celular, altere os campos que têm IP fixo para o seu próprio IP*
 
 ## 🤔 Como contribuir
 
