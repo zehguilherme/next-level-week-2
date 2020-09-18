@@ -78,7 +78,7 @@
 
 Em primeiro lugar, você precisa ter o *node* e *yarn* (ou *npm*) instalado em sua máquina.
 
-*If you decide to use npm don't forget to delete yarn.lock in folders*
+*Se você decidir usar o npm, não se esqueça de deletar yarn.lock nas pastas*
 
 Então você pode clonar o repositório.
 
