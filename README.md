@@ -84,15 +84,15 @@ Então você pode clonar o repositório.
 
 `git clone https://github.com/zehguilherme/next-level-week-2`
 
-Primeiro, inicie o back-end.
+Primeiro, inicie o server.
 
-1. `cd backend`
+1. `cd server`
 2. `yarn or npm install`
 3. `yarn dev or npm run dev`
 
 Agora iniciando a aplicação web.
 
-1. `cd frontend`
+1. `cd web`
 2. `yarn or npm install`
 3. `yarn start or npm run start`
 
